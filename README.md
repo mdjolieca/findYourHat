@@ -1,4 +1,4 @@
-# The credit card checker
+# The Find Your Hat Game
 A Codecademy javascript challenge, Find Your Hat.
 
 ## Table of contents
@@ -8,9 +8,12 @@ A Codecademy javascript challenge, Find Your Hat.
 
 ## Project goals
 **Context:** In this project, you’ll be building an interactive terminal game. The scenario is that the player has lost their hat in a field full of holes, and they must navigate back to it without falling down one of the holes or stepping outside of the field.
+
 ## Technology
 Project is created with:
  - ES6 Javascript
+ - Node.js
+ Project can be run from terminal node ./main.js
 
  
 
