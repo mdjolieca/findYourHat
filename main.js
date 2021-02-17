@@ -7,10 +7,10 @@ const pathCharacter = '*';
 
 class Field {
 
-  constructor(field, fieldHeight, fieldWidth){
+  constructor(field,){
     this.field = field; 
-    this.fieldHeight = fieldHeight;
-    this.fieldWidth = fieldWidth;
+    this.fieldHeight = field.length;
+    this.fieldWidth = field[0].length;
     this.userPostion = { height: 0, width: 0 } 
   }
 
@@ -113,7 +113,7 @@ class Field {
 }
 
 
-let userField = new Field(Field.generateField(4,4,25),4, 4);
+let userField = new Field(Field.generateField(9,9,25));
 let userMove;
 do{
  userField.print();
